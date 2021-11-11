@@ -129,6 +129,7 @@ public class Listener implements ActionListener, MouseListener, MouseMotionListe
                     view.repaint();
                     in.close();
                 }
+                break;
             } catch (Exception e1) {
                 JOptionPane.showMessageDialog(null, "文件打开失败！");
             }
@@ -147,6 +148,7 @@ public class Listener implements ActionListener, MouseListener, MouseMotionListe
                     out.close();
                     JOptionPane.showMessageDialog(null, "保存成功！");
                 }
+                break;
             } catch (Exception e1) {
                 JOptionPane.showMessageDialog(null, "保存失败！");
             }
